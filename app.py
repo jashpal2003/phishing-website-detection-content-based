@@ -15,7 +15,7 @@ st.header('Phishing Website Detection using Machine Learning')
 
 
 with st.expander('EXAMPLE PHISHING URLs:'):
-    st.write('_https://rtyu38.godaddysites.com/_')
+    st.write('http://interpol16.ru/mak/neteasehardest/900')
     st.write('_https://karafuru.invite-mint.com/_')
     st.write('_https://defi-ned.top/h5/#/_')
     st.caption('REMEMBER, PHISHING WEB PAGES HAVE SHORT LIFECYCLE! SO, THE EXAMPLES SHOULD BE UPDATED!')
