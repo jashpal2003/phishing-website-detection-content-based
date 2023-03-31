@@ -24,6 +24,36 @@ st.subheader('here we use "Random forest" ML model ')
 
 model = ml.rf_model
 
+choice = st.selectbox("Please select your machine learning model",
+                 [
+                     'Gaussian Naive Bayes', 'Support Vector Machine', 'Decision Tree', 'Random Forest',
+                     'AdaBoost', 'Neural Network', 'K-Neighbours'
+                 ]
+                )
+
+model = ml.nb_model
+
+if choice == 'Gaussian Naive Bayes':
+    model = ml.nb_model
+    st.write('GNB model is selected!')
+elif choice == 'Support Vector Machine':
+    model = ml.svm_model
+    st.write('SVM model is selected!')
+elif choice == 'Decision Tree':
+    model = ml.dt_model
+    st.write('DT model is selected!')
+elif choice == 'Random Forest':
+    model = ml.rf_model
+    st.write('RF model is selected!')
+elif choice == 'AdaBoost':
+    model = ml.ab_model
+    st.write('AB model is selected!')
+elif choice == 'Neural Network':
+    model = ml.nn_model
+    st.write('NN model is selected!')
+else:
+    model = ml.kn_model
+    st.write('K
 
 url = st.text_input('Enter the URL')
 
