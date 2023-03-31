@@ -53,7 +53,7 @@ elif choice == 'Neural Network':
     st.write('NN model is selected!')
 else:
     model = ml.kn_model
-    st.write('K
+    st.write('KN model is selected!')
 
 url = st.text_input('Enter the URL')
 
